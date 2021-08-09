@@ -1,0 +1,501 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.011  000.011: --- NVIM STARTING ---
+000.915  000.904: locale set
+009.168  008.253: inits 1
+009.206  000.038: window checked
+009.217  000.011: parsing arguments
+009.553  000.336: expanding arguments
+009.643  000.090: inits 2
+010.180  000.536: init highlight
+010.182  000.002: waiting for UI
+013.414  003.232: done waiting for UI
+013.440  000.026: initialized screen early for UI
+015.141  000.314  000.314: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syncolor.vim
+015.755  001.171  000.858: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/synload.vim
+026.405  010.448  010.448: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+029.317  001.750  001.750: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/scripts.vim
+030.224  015.909  002.540: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syntax.vim
+030.692  000.057  000.057: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+031.504  000.078  000.078: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftplugin.vim
+032.143  000.070  000.070: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/indent.vim
+035.498  002.492  002.492: sourcing /Users/zileto/.config/nvim/autoload/plug.vim
+040.041  002.293  002.293: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftoff.vim
+042.483  000.026  000.026: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/filetype.vim
+052.605  000.041  000.041: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/ftdetect/polyglot.vim
+053.881  011.198  011.157: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+054.633  000.030  000.030: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/ftdetect/polyglot.vim
+076.396  034.594  023.341: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/autoload/polyglot/init.vim
+076.419  034.806  000.212: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/filetype.vim
+076.688  000.036  000.036: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+077.386  000.032  000.032: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftplugin.vim
+078.035  000.030  000.030: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/indent.vim
+078.464  045.780  006.092: sourcing /Users/zileto/.config/nvim/vim-plug/plugins.vim
+078.670  000.083  000.083: sourcing /Users/zileto/.config/nvim/themes/airline.vim
+079.611  000.825  000.825: sourcing /Users/zileto/.config/nvim/plug-config/coc.vim
+081.107  000.301  000.301: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syncolor.vim
+083.342  003.393  003.092: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-gruvbox8/colors/gruvbox8.vim
+083.418  069.295  003.100: sourcing /Users/zileto/.config/nvim/init.vim
+083.431  000.696: sourcing vimrc file(s)
+088.048  003.380  003.380: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-devicons/plugin/webdevicons.vim
+089.186  000.363  000.363: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree.vim
+090.514  000.765  000.765: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/path.vim
+090.878  000.178  000.178: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_controller.vim
+091.308  000.167  000.167: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_item.vim
+091.657  000.152  000.152: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/key_map.vim
+092.223  000.349  000.349: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/bookmark.vim
+092.687  000.282  000.282: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_file_node.vim
+093.415  000.564  000.564: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_dir_node.vim
+093.835  000.251  000.251: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/opener.vim
+094.350  000.306  000.306: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/creator.vim
+094.613  000.093  000.093: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/flag_set.vim
+094.997  000.217  000.217: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/nerdtree.vim
+095.551  000.389  000.389: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/ui.vim
+095.796  000.080  000.080: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/event.vim
+096.037  000.077  000.077: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/notifier.vim
+097.058  000.772  000.772: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree/ui_glue.vim
+102.682  000.778  000.778: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-devicons/nerdtree_plugin/webdevicons.vim
+103.408  000.157  000.157: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/exec_menuitem.vim
+104.811  000.292  000.292: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/autoload/provider/clipboard.vim
+105.339  001.819  001.527: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/fs_menu.vim
+105.583  000.120  000.120: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/vcs.vim
+106.710  018.270  010.391: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/plugin/NERD_tree.vim
+107.608  000.568  000.568: sourcing /Users/zileto/.config/nvim/autoload/plugged/auto-pairs/plugin/auto-pairs.vim
+108.501  000.161  000.161: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/rpc.vim
+109.488  000.776  000.776: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/util.vim
+110.625  000.667  000.667: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/client.vim
+121.480  013.539  011.936: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/plugin/coc.vim
+124.873  002.683  002.683: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/plugin/polyglot.vim
+127.349  000.649  000.649: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/gzip.vim
+127.653  000.066  000.066: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/health.vim
+128.147  000.294  000.294: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/man.vim
+130.648  000.324  000.324: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+130.998  002.719  002.396: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/matchit.vim
+131.551  000.428  000.428: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/matchparen.vim
+132.622  000.885  000.885: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/netrwPlugin.vim
+133.139  000.357  000.357: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/rplugin.vim
+133.552  000.268  000.268: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/shada.vim
+133.759  000.060  000.060: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/spellfile.vim
+134.319  000.417  000.417: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tarPlugin.vim
+134.712  000.236  000.236: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tohtml.vim
+134.956  000.055  000.055: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tutor.vim
+135.671  000.574  000.574: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/zipPlugin.vim
+138.581  009.702: loading plugins
+139.148  000.567: loading packages
+140.448  001.300: loading after plugins
+140.475  000.028: inits 3
+144.030  003.554: reading ShaDa
+144.956  000.927: opening buffers
+148.580  001.260  001.260: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/autoload/polyglot/sleuth.vim
+151.866  005.650: BufEnter autocommands
+151.874  000.007: editing files in windows
+152.697  000.824: VimEnter autocommands
+152.703  000.006: UIEnter autocommands
+152.708  000.005: before starting main loop
+155.657  002.689  002.689: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/float.vim
+158.033  000.682  000.682: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc.vim
+158.553  002.474: first screen update
+158.556  000.003: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.011  000.011: --- NVIM STARTING ---
+000.898  000.887: locale set
+008.832  007.934: inits 1
+008.872  000.040: window checked
+008.883  000.011: parsing arguments
+009.273  000.390: expanding arguments
+009.363  000.090: inits 2
+009.875  000.512: init highlight
+009.878  000.003: waiting for UI
+012.992  003.114: done waiting for UI
+013.014  000.022: initialized screen early for UI
+014.670  000.419  000.419: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syncolor.vim
+015.663  001.658  001.240: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/synload.vim
+025.669  009.784  009.784: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+027.613  000.967  000.967: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/scripts.vim
+028.099  014.351  001.942: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syntax.vim
+028.364  000.031  000.031: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+028.990  000.068  000.068: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftplugin.vim
+029.610  000.066  000.066: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/indent.vim
+033.111  002.771  002.771: sourcing /Users/zileto/.config/nvim/autoload/plug.vim
+037.285  002.011  002.011: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftoff.vim
+039.750  000.025  000.025: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/filetype.vim
+048.788  000.044  000.044: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/ftdetect/polyglot.vim
+050.048  010.094  010.050: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+050.699  000.026  000.026: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/ftdetect/polyglot.vim
+073.151  034.077  023.932: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/autoload/polyglot/init.vim
+073.175  034.297  000.220: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/filetype.vim
+073.433  000.035  000.035: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+074.104  000.031  000.031: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftplugin.vim
+074.898  000.047  000.047: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/indent.vim
+075.432  045.333  006.141: sourcing /Users/zileto/.config/nvim/vim-plug/plugins.vim
+075.635  000.081  000.081: sourcing /Users/zileto/.config/nvim/themes/airline.vim
+076.389  000.644  000.644: sourcing /Users/zileto/.config/nvim/plug-config/coc.vim
+077.450  000.237  000.237: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syncolor.vim
+079.323  002.771  002.534: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-gruvbox8/colors/gruvbox8.vim
+079.378  065.791  002.447: sourcing /Users/zileto/.config/nvim/init.vim
+079.387  000.582: sourcing vimrc file(s)
+083.199  002.980  002.980: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-devicons/plugin/webdevicons.vim
+084.219  000.330  000.330: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree.vim
+085.382  000.681  000.681: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/path.vim
+085.729  000.183  000.183: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_controller.vim
+086.028  000.119  000.119: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_item.vim
+086.323  000.143  000.143: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/key_map.vim
+086.796  000.310  000.310: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/bookmark.vim
+087.238  000.283  000.283: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_file_node.vim
+087.918  000.525  000.525: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_dir_node.vim
+088.309  000.235  000.235: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/opener.vim
+088.808  000.296  000.296: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/creator.vim
+089.039  000.079  000.079: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/flag_set.vim
+089.394  000.204  000.204: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/nerdtree.vim
+089.910  000.365  000.365: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/ui.vim
+090.118  000.056  000.056: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/event.vim
+090.340  000.072  000.072: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/notifier.vim
+091.070  000.563  000.563: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree/ui_glue.vim
+095.551  000.527  000.527: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-devicons/nerdtree_plugin/webdevicons.vim
+096.159  000.143  000.143: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/exec_menuitem.vim
+097.371  000.264  000.264: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/autoload/provider/clipboard.vim
+097.851  001.586  001.322: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/fs_menu.vim
+098.024  000.069  000.069: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/vcs.vim
+099.140  015.593  008.822: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/plugin/NERD_tree.vim
+100.000  000.537  000.537: sourcing /Users/zileto/.config/nvim/autoload/plugged/auto-pairs/plugin/auto-pairs.vim
+100.778  000.141  000.141: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/rpc.vim
+101.721  000.727  000.727: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/util.vim
+102.664  000.498  000.498: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/client.vim
+111.378  011.062  009.695: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/plugin/coc.vim
+113.700  001.734  001.734: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/plugin/polyglot.vim
+116.437  000.602  000.602: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/gzip.vim
+116.624  000.041  000.041: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/health.vim
+116.927  000.181  000.181: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/man.vim
+119.179  000.301  000.301: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+119.513  002.460  002.158: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/matchit.vim
+119.950  000.315  000.315: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/matchparen.vim
+120.926  000.852  000.852: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/netrwPlugin.vim
+121.431  000.352  000.352: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/rplugin.vim
+121.796  000.232  000.232: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/shada.vim
+122.015  000.059  000.059: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/spellfile.vim
+122.559  000.303  000.303: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tarPlugin.vim
+122.870  000.173  000.173: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tohtml.vim
+123.049  000.050  000.050: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tutor.vim
+123.522  000.342  000.342: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/zipPlugin.vim
+125.713  008.460: loading plugins
+126.089  000.376: loading packages
+126.904  000.815: loading after plugins
+126.921  000.017: inits 3
+129.076  002.154: reading ShaDa
+129.613  000.537: opening buffers
+131.797  000.879  000.879: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-polyglot/autoload/polyglot/sleuth.vim
+133.492  003.001: BufEnter autocommands
+133.498  000.005: editing files in windows
+134.117  000.620: VimEnter autocommands
+134.122  000.004: UIEnter autocommands
+134.126  000.005: before starting main loop
+136.439  002.083  002.083: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/float.vim
+138.137  000.675  000.675: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc.vim
+138.573  001.690: first screen update
+138.576  000.003: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.011  000.011: --- NVIM STARTING ---
+000.927  000.916: locale set
+009.976  009.050: inits 1
+010.016  000.040: window checked
+010.027  000.011: parsing arguments
+010.386  000.358: expanding arguments
+010.474  000.089: inits 2
+010.991  000.516: init highlight
+010.993  000.003: waiting for UI
+014.404  003.411: done waiting for UI
+014.463  000.059: initialized screen early for UI
+016.200  000.423  000.423: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syncolor.vim
+016.842  001.320  000.897: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/synload.vim
+027.463  010.409  010.409: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+029.369  000.922  000.922: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/scripts.vim
+029.880  014.622  001.971: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syntax.vim
+030.154  000.033  000.033: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+030.774  000.074  000.074: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftplugin.vim
+031.379  000.061  000.061: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/indent.vim
+034.431  002.363  002.363: sourcing /Users/zileto/.config/nvim/autoload/plug.vim
+038.602  001.863  001.863: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftoff.vim
+050.210  009.210  009.210: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+051.044  000.038  000.038: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftplugin.vim
+051.706  000.031  000.031: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/indent.vim
+052.126  020.257  006.754: sourcing /Users/zileto/.config/nvim/vim-plug/plugins.vim
+052.328  000.076  000.076: sourcing /Users/zileto/.config/nvim/themes/airline.vim
+052.995  000.558  000.558: sourcing /Users/zileto/.config/nvim/plug-config/coc.vim
+054.424  000.371  000.371: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syncolor.vim
+056.755  003.593  003.222: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-gruvbox8/colors/gruvbox8.vim
+056.818  041.746  002.472: sourcing /Users/zileto/.config/nvim/init.vim
+056.827  000.618: sourcing vimrc file(s)
+058.056  000.349  000.349: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/plugin/lightline.vim
+061.463  003.049  003.049: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-devicons/plugin/webdevicons.vim
+062.529  000.281  000.281: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree.vim
+063.641  000.675  000.675: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/path.vim
+063.980  000.160  000.160: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_controller.vim
+064.254  000.102  000.102: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_item.vim
+064.555  000.131  000.131: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/key_map.vim
+065.008  000.289  000.289: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/bookmark.vim
+065.565  000.389  000.389: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_file_node.vim
+066.456  000.682  000.682: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_dir_node.vim
+066.895  000.245  000.245: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/opener.vim
+067.366  000.295  000.295: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/creator.vim
+067.619  000.080  000.080: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/flag_set.vim
+067.993  000.209  000.209: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/nerdtree.vim
+068.539  000.377  000.377: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/ui.vim
+068.814  000.046  000.046: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/event.vim
+069.116  000.073  000.073: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/notifier.vim
+069.949  000.632  000.632: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree/ui_glue.vim
+075.044  000.707  000.707: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-devicons/nerdtree_plugin/webdevicons.vim
+075.778  000.156  000.156: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/exec_menuitem.vim
+077.191  000.437  000.437: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/autoload/provider/clipboard.vim
+077.790  001.904  001.466: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/fs_menu.vim
+077.999  000.077  000.077: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/vcs.vim
+079.016  017.169  009.660: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/plugin/NERD_tree.vim
+080.028  000.657  000.657: sourcing /Users/zileto/.config/nvim/autoload/plugged/auto-pairs/plugin/auto-pairs.vim
+080.909  000.154  000.154: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/rpc.vim
+081.905  000.755  000.755: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/util.vim
+082.733  000.336  000.336: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/client.vim
+093.314  012.926  011.680: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/plugin/coc.vim
+096.484  000.740  000.740: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/gzip.vim
+096.819  000.057  000.057: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/health.vim
+097.235  000.280  000.280: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/man.vim
+100.381  000.351  000.351: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+100.784  003.341  002.990: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/matchit.vim
+101.379  000.402  000.402: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/matchparen.vim
+102.474  000.858  000.858: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/netrwPlugin.vim
+103.417  000.623  000.623: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/rplugin.vim
+103.926  000.302  000.302: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/shada.vim
+104.159  000.073  000.073: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/spellfile.vim
+104.737  000.403  000.403: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tarPlugin.vim
+105.202  000.251  000.251: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tohtml.vim
+105.516  000.081  000.081: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tutor.vim
+106.400  000.642  000.642: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/zipPlugin.vim
+109.724  010.691: loading plugins
+110.396  000.672: loading packages
+111.387  000.991: loading after plugins
+111.413  000.027: inits 3
+113.944  002.530: reading ShaDa
+114.158  000.214: opening buffers
+115.348  000.939  000.939: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline.vim
+116.475  000.216  000.216: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/tab.vim
+118.009  000.390  000.390: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+121.129  003.859  003.469: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim
+121.159  004.283  000.424: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme/default.vim
+129.740  010.144: BufEnter autocommands
+129.749  000.009: editing files in windows
+130.306  000.557: VimEnter autocommands
+130.314  000.007: UIEnter autocommands
+130.321  000.007: before starting main loop
+133.243  002.577  002.577: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/float.vim
+138.134  005.236: first screen update
+138.140  000.007: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.014  000.014: --- NVIM STARTING ---
+012.075  012.061: locale set
+030.701  018.625: inits 1
+031.418  000.717: window checked
+031.440  000.022: parsing arguments
+033.779  002.339: expanding arguments
+034.614  000.834: inits 2
+035.770  001.157: init highlight
+035.779  000.009: waiting for UI
+039.941  004.162: done waiting for UI
+039.961  000.019: initialized screen early for UI
+044.519  001.248  001.248: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syncolor.vim
+046.483  003.743  002.496: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/synload.vim
+057.967  011.283  011.283: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+062.157  002.272  002.272: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/scripts.vim
+062.828  021.440  004.142: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syntax.vim
+063.113  000.034  000.034: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+064.474  000.815  000.815: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftplugin.vim
+065.985  000.914  000.914: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/indent.vim
+072.080  004.750  004.750: sourcing /Users/zileto/.config/nvim/autoload/plug.vim
+076.044  001.943  001.943: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftoff.vim
+087.143  009.596  009.596: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+087.813  000.035  000.035: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftplugin.vim
+088.533  000.037  000.037: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/indent.vim
+088.966  022.247  005.886: sourcing /Users/zileto/.config/nvim/vim-plug/plugins.vim
+089.998  000.909  000.909: sourcing /Users/zileto/.config/nvim/themes/airline.vim
+092.330  002.174  002.174: sourcing /Users/zileto/.config/nvim/plug-config/coc.vim
+093.974  000.231  000.231: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syncolor.vim
+096.846  004.342  004.110: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-gruvbox8/colors/gruvbox8.vim
+096.905  056.294  003.419: sourcing /Users/zileto/.config/nvim/init.vim
+096.914  000.660: sourcing vimrc file(s)
+098.899  000.507  000.507: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/plugin/lightline.vim
+103.785  003.644  003.644: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-devicons/plugin/webdevicons.vim
+107.074  001.071  001.071: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree.vim
+109.582  001.769  001.769: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/path.vim
+110.591  000.832  000.832: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_controller.vim
+111.103  000.348  000.348: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_item.vim
+112.042  000.771  000.771: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/key_map.vim
+113.192  000.987  000.987: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/bookmark.vim
+114.335  000.964  000.964: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_file_node.vim
+116.065  001.557  001.557: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_dir_node.vim
+117.086  000.848  000.848: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/opener.vim
+117.848  000.586  000.586: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/creator.vim
+118.255  000.232  000.232: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/flag_set.vim
+119.151  000.726  000.726: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/nerdtree.vim
+120.497  001.174  001.174: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/ui.vim
+120.879  000.208  000.208: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/event.vim
+121.979  000.332  000.332: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/notifier.vim
+123.638  001.484  001.484: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree/ui_glue.vim
+128.713  001.236  001.236: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-devicons/nerdtree_plugin/webdevicons.vim
+129.570  000.405  000.405: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/exec_menuitem.vim
+132.277  001.378  001.378: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/autoload/provider/clipboard.vim
+133.405  003.726  002.348: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/fs_menu.vim
+133.853  000.336  000.336: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/vcs.vim
+134.781  029.454  009.861: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/plugin/NERD_tree.vim
+137.341  001.534  001.534: sourcing /Users/zileto/.config/nvim/autoload/plugged/auto-pairs/plugin/auto-pairs.vim
+141.797  000.684  000.684: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/rpc.vim
+143.840  001.827  001.827: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/util.vim
+145.663  001.342  001.342: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/client.vim
+155.506  015.334  011.481: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/plugin/coc.vim
+157.965  000.701  000.701: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/gzip.vim
+158.478  000.370  000.370: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/health.vim
+159.087  000.428  000.428: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/man.vim
+162.387  000.961  000.961: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+162.738  003.505  002.544: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/matchit.vim
+163.906  001.038  001.038: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/matchparen.vim
+165.219  001.182  001.182: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/netrwPlugin.vim
+166.091  000.732  000.732: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/rplugin.vim
+166.763  000.534  000.534: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/shada.vim
+167.313  000.388  000.388: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/spellfile.vim
+168.073  000.609  000.609: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tarPlugin.vim
+169.793  001.586  001.586: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tohtml.vim
+170.312  000.338  000.338: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tutor.vim
+171.255  000.773  000.773: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/zipPlugin.vim
+173.397  013.827: loading plugins
+173.741  000.344: loading packages
+174.480  000.739: loading after plugins
+174.499  000.019: inits 3
+178.191  003.693: reading ShaDa
+178.395  000.203: opening buffers
+180.920  002.267  002.267: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline.vim
+182.660  000.746  000.746: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/tab.vim
+186.289  001.240  001.240: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+188.995  004.783  003.543: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim
+189.013  006.033  001.250: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme/default.vim
+194.604  007.162: BufEnter autocommands
+194.609  000.006: editing files in windows
+195.065  000.456: VimEnter autocommands
+195.069  000.004: UIEnter autocommands
+195.074  000.004: before starting main loop
+199.885  003.960  003.960: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/float.vim
+203.261  004.227: first screen update
+203.265  000.004: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.010  000.010: --- NVIM STARTING ---
+001.400  001.390: locale set
+012.051  010.650: inits 1
+012.087  000.036: window checked
+012.097  000.010: parsing arguments
+012.426  000.329: expanding arguments
+012.506  000.080: inits 2
+012.995  000.489: init highlight
+012.997  000.002: waiting for UI
+016.178  003.181: done waiting for UI
+016.199  000.021: initialized screen early for UI
+019.226  000.904  000.904: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syncolor.vim
+019.833  002.046  001.142: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/synload.vim
+030.275  010.245  010.245: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+032.728  001.541  001.541: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/scripts.vim
+033.264  015.972  002.141: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syntax.vim
+033.551  000.033  000.033: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+034.551  000.470  000.470: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftplugin.vim
+035.566  000.397  000.397: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/indent.vim
+040.793  003.885  003.885: sourcing /Users/zileto/.config/nvim/autoload/plug.vim
+045.115  002.311  002.311: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftoff.vim
+054.960  008.405  008.405: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/filetype.vim
+055.581  000.031  000.031: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/ftplugin.vim
+056.189  000.028  000.028: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/indent.vim
+056.581  020.502  005.840: sourcing /Users/zileto/.config/nvim/vim-plug/plugins.vim
+057.189  000.491  000.491: sourcing /Users/zileto/.config/nvim/themes/airline.vim
+059.129  001.812  001.812: sourcing /Users/zileto/.config/nvim/plug-config/coc.vim
+061.568  000.419  000.419: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/syntax/syncolor.vim
+064.421  004.902  004.483: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-gruvbox8/colors/gruvbox8.vim
+064.480  047.638  003.059: sourcing /Users/zileto/.config/nvim/init.vim
+064.490  000.654: sourcing vimrc file(s)
+065.813  000.521  000.521: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/plugin/lightline.vim
+069.938  003.564  003.564: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-devicons/plugin/webdevicons.vim
+071.699  000.748  000.748: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree.vim
+074.245  001.585  001.585: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/path.vim
+075.144  000.701  000.701: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_controller.vim
+075.533  000.210  000.210: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/menu_item.vim
+076.387  000.677  000.677: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/key_map.vim
+077.461  000.799  000.799: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/bookmark.vim
+078.577  000.914  000.914: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_file_node.vim
+080.110  001.358  001.358: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/tree_dir_node.vim
+081.141  000.857  000.857: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/opener.vim
+081.928  000.621  000.621: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/creator.vim
+082.342  000.248  000.248: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/flag_set.vim
+083.297  000.792  000.792: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/nerdtree.vim
+084.717  001.231  001.231: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/ui.vim
+085.106  000.217  000.217: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/event.vim
+085.969  000.346  000.346: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/lib/nerdtree/notifier.vim
+087.548  001.357  001.357: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/autoload/nerdtree/ui_glue.vim
+092.866  001.201  001.201: sourcing /Users/zileto/.config/nvim/autoload/plugged/vim-devicons/nerdtree_plugin/webdevicons.vim
+093.711  000.386  000.386: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/exec_menuitem.vim
+095.976  000.980  000.980: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/autoload/provider/clipboard.vim
+097.119  003.300  002.320: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/fs_menu.vim
+097.556  000.332  000.332: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/nerdtree_plugin/vcs.vim
+098.497  028.173  010.293: sourcing /Users/zileto/.config/nvim/autoload/plugged/NERDTree/plugin/NERD_tree.vim
+100.291  001.501  001.501: sourcing /Users/zileto/.config/nvim/autoload/plugged/auto-pairs/plugin/auto-pairs.vim
+101.750  000.449  000.449: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/rpc.vim
+103.596  001.628  001.628: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/util.vim
+104.980  000.849  000.849: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/client.vim
+113.686  013.087  010.160: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/plugin/coc.vim
+116.137  000.743  000.743: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/gzip.vim
+116.526  000.243  000.243: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/health.vim
+117.108  000.448  000.448: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/man.vim
+119.889  000.744  000.744: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+120.249  003.008  002.264: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/matchit.vim
+121.216  000.847  000.847: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/matchparen.vim
+122.789  001.444  001.444: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/netrwPlugin.vim
+123.587  000.631  000.631: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/rplugin.vim
+124.283  000.557  000.557: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/shada.vim
+124.743  000.272  000.272: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/spellfile.vim
+125.363  000.478  000.478: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tarPlugin.vim
+126.335  000.826  000.826: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tohtml.vim
+126.787  000.308  000.308: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/tutor.vim
+127.469  000.518  000.518: sourcing /usr/local/Cellar/neovim/0.5.0/share/nvim/runtime/plugin/zipPlugin.vim
+129.579  007.920: loading plugins
+129.892  000.313: loading packages
+130.585  000.692: loading after plugins
+130.604  000.019: inits 3
+132.713  002.109: reading ShaDa
+132.896  000.183: opening buffers
+134.786  001.661  001.661: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline.vim
+135.955  000.407  000.407: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/tab.vim
+138.057  000.740  000.740: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme.vim
+140.783  003.995  003.256: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme/powerline.vim
+140.807  004.525  000.530: sourcing /Users/zileto/.config/nvim/autoload/plugged/lightline.vim/autoload/lightline/colorscheme/default.vim
+146.328  006.838: BufEnter autocommands
+146.333  000.005: editing files in windows
+146.786  000.453: VimEnter autocommands
+146.790  000.004: UIEnter autocommands
+146.795  000.005: before starting main loop
+150.174  003.066  003.066: sourcing /Users/zileto/.config/nvim/autoload/plugged/coc.nvim/autoload/coc/float.vim
+153.538  003.677: first screen update
+153.541  000.003: --- NVIM STARTED ---
